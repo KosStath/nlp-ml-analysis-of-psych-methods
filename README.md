@@ -3,9 +3,9 @@
 
 ## Introduction
 
-This repository has been established in conjunction with the publication of the research paper [Methodological Trends in Psychology Research: Analyzing Abstracts with Natural Language Processing and Machine Learning]. It serves as a supplementary resource for researchers, analysts, and enthusiasts, conducting in-depth analyses related to Natural Language Processing (NLP), Text Mining (TM), and Machine Learning (ML).
+This repository accompanies the research paper "Methodological Trends in Psychology Research: Analyzing Abstracts with Natural Language Processing and Machine Learning". It serves as a supplementary resource for researchers, analysts, and practitioners interested in the application of Natural Language Processing (NLP), Text Mining (TM), and Machine Learning (ML) within the context of psychological research.
 
-Within this repository, you will find a carefully curated collection of data that spans various aspects of the employed techniques and the investigation of methods in the field of Psychology. The data is presented in a structured format, making it accessible for both novice data enthusiasts and seasoned statisticians.
+The repository contains a well-organized collection of datasets and analysis tools used in the study. These resources are designed to support reproducibility, facilitate further exploration, and promote methodological transparency. Whether you're a newcomer to data analysis or an experienced statistician, the materials provided aim to be both accessible and informative.
 
 ### Citation
 ```bibtex
