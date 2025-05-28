@@ -20,16 +20,22 @@ The repository contains a well-organized collection of datasets and analysis too
   DOI = {},
   URL = {},
   ISSN = {},
-  ABSTRACT = {Scientific documents, such as research articles, are valuable resources for Information Retrieval (IR) and Natural Language Processing (NLP), offering opportunities to extract specialized knowledge and analyze key components of scholarly content, including research methods. This study investigates methodological trends in psychology research over the past 30 years (1995-2024) by applying a novel NLP and Machine Learning pipeline to a large-scale corpus of 85,452 abstracts. A curated glossary of 365 method-related keywords served as a gold-standard reference for term identification, using direct and fuzzy string matching. Retrieved terms were encoded with SciBERT averaging embeddings across contextual occurrences to produce unified vectors.  These vectors were clustered using both unsupervised and weighted semi-supervised approaches, yielding six and ten clusters, respectively. Cluster composition was analyzed using weighted statistical measures to assess term importance within and across groups. Our findings highlight an increasing presence of methodological terminology in psychology, reflecting a shift toward greater standardization and transparency in research reporting. This work contributes a reproducible methodological framework for the semantic analysis of research language, with implications for meta-research, domain-specific lexicon development, and automated scientific knowledge discovery.}
+  ABSTRACT = {Scientific documents, such as research articles, are valuable resources for Information Retrieval and Natural Language Processing (NLP), offering opportunities to extract specialized knowledge and analyze key components of scholarly content, including research methods. This study investigates methodological trends in psychology research over the past 30 years (1995-2024) by applying a novel NLP and Machine Learning pipeline to a large corpus of 85,452 abstracts. A curated glossary of 365 method-related keywords served as a gold-standard reference for term identification, using direct and fuzzy string matching. Retrieved terms were encoded with SciBERT, averaging embeddings across contextual occurrences to produce unified vectors.  These vectors were clustered using unsupervised and weighted semi-supervised approaches, yielding six and ten clusters, respectively. Cluster composition was analyzed using weighted statistical measures to assess term importance within and across groups. Our findings highlight an increasing presence of methodological terminology in psychology, reflecting a shift toward greater standardization and transparency in research reporting. This work contributes a reproducible methodological framework for the semantic analysis of research language, with implications for meta-research, domain-specific lexicon development, and automated scientific knowledge discovery.}
 }
-
 ```
 
-## Data Source
+### Data Source
 
-The statistics and data contained within this repository have been collected from 3 highly regarded databases in the fields of health, psychology and behavioral sciences: Elsevier’s Scopus ( https://www.scopus.com/), PubMed’s MEDLINE (https://pubmed.ncbi.nlm.nih.gov/) and Ovid’s PsycINFO (https://ovidsp.dc1.ovid.com/ovid-new-a/ovidweb.cgi). The data is used under the terms of their use policy, and all appropriate credit for the original data collection goes to the respective scientific databases.
+The data and statistics presented in this repository were collected from three reputable databases in the fields of health, psychology, and behavioral sciences:
 
-Please note that this repository is not affiliated with, sponsored by, or endorsed by any of the mentioned databases.
+- **Scopus** (Elsevier) – [https://www.scopus.com](https://www.scopus.com)  
+- **MEDLINE** (PubMed) – [https://pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov)  
+- **PsycINFO** (Ovid) – [https://ovidsp.dc1.ovid.com/ovid-new-a/ovidweb.cgi](https://ovidsp.dc1.ovid.com/ovid-new-a/ovidweb.cgi)
+
+These data sources were used in accordance with their respective terms of use. Full credit for the original data collection is attributed to the corresponding platforms.
+
+> **Disclaimer:** This repository is not affiliated with, sponsored by, or endorsed by Elsevier, PubMed, or Ovid.
+
 
 ## Repository Contents
 
