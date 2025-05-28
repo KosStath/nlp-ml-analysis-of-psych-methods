@@ -36,36 +36,49 @@ These data sources were used in accordance with their respective terms of use. F
 
 > **Disclaimer:** This repository is not affiliated with, sponsored by, or endorsed by Elsevier, PubMed, or Ovid.
 
+### Repository Contents
 
-## Repository Contents
+This repository contains the following scripts and data files used in the research:
 
-- `glossary_365Terms.json`: The glossary containing the 365 method-related terms.
-- `data_Elsevier.py`: The employed script for the data retrieval from Elsevier’s Scopus.
-- `data_PubMed.py`: The employed script for the data retrieval from PubMed’s MEDLINE.
-- `prepro_Hyphen.py`: Script for term hyphenation.
-- `prepro_NLTK.py`: Script for abstract preprocessing.
-- `direct&fuzzy.py`: Script for direct & fuzzy string matching.
-- `embeddings.py`: Script to generate embeddings using SciBERT.
-- `umapUnsupervised.py`: Script to apply UMAP reduction on the generated embeddings for the unsupervised clustering analysis.
-- `exploratoryUnsupervisedClustering.py`: Script for the exploratory clustering analysis with k-means for the unsupervised clustering approach.
-- `selectedClusteringModel_Unsupervised.py`: Script with the final parameters for the selected clustering model for the unsupervised approach.
-- `outliers_Unsupervised.py`: Script to examine outliers for the unsupervised approach.
-- `clusterDescriptives_Unsupervised.py`: Script to analyze clusters for the unsupervised approach.
-- `compactness_VS_separation_Unsupervised.py`: Script to produce the visual that depicts the compactness of each cluster in relation to its separation from other clusters for the unsupervised approach.
-- `tf-idf_Unsupervised.py`: Script to calculate TF-IDF scores for the terms of each cluster in the unsupervised approach.
-- `jaccard_Unsupervised.py`: Script to calculate Jaccard similarity scores and the corresponding heatmap for the clusters in the unsupervised approach.
-- `heatmap_CommonTerms_Unsupervised.py`: Script to produce the heatmap depicting common terms between clusters in the unsupervised approach.
-- `embeddings_Avg'ed.py`: Script to calculate the average embedding for each term found in an abstract.
-- `weightedTerms.py`: Script to apply the weighting scheme for the semi-supervised approach.
-- `updateAbstractsWith_Avg'edEmbeds.py`: Script to update abstract embeddings with the averaged term embeddings.
-- `umapSemiSupervised.py`: Script to apply UMAP reduction on the generated embeddings for the semi-supervised clustering analysis.
-- `clusterDescriptives_Semisupervised.py`: Script to analyze clusters for the semi-supervisedsupervised approach.
-- `jaccard_Semisupervised.py`: Script to calculate Jaccard similarity scores and the corresponding heatmap for the clusters in the semi-supervised approach.
-- `facetedBarPlots_Semisupervised_10Clusters.py`: Script to produce the bar plots with the top 5 terms per cluster for the semi-supervised approach.
-- `overall_DescriptiveTermStats.py`: Script to calculate descriptive statistics for the terms found in the dataset, irrespective of the clusters. 
-- `overall_tf-idf_byYear.py`: Script to calculate TF-IDF scores for the terms found in the dataset, by year and irrespective of the clusters. 
-- `overall_tf-idf_5YearPlots.py`: Script to produce plots per 5 year window based on the TF-IDF scores of the terms found in the dataset and irrespective of the clusters. 
-- `abstractProportion_WithNoTerms.py`: Script to calculate the proportion of abstracts without terms and to produce the dual-axis plot. 
+#### 📁 Data and Glossary
+- **`glossary_365Terms.json`** – Glossary containing 365 method-related terms.
+- **`data_Elsevier.py`** – Script for retrieving data from Elsevier’s Scopus.
+- **`data_PubMed.py`** – Script for retrieving data from PubMed’s MEDLINE.
+
+#### 🛠️ Preprocessing
+- **`prepro_Hyphen.py`** – Handles term hyphenation.
+- **`prepro_NLTK.py`** – Preprocesses abstracts.
+- **`direct&fuzzy.py`** – Performs direct and fuzzy string matching.
+
+#### 🧠 Embeddings & Representation
+- **`embeddings.py`** – Generates embeddings using SciBERT.
+- **`embeddings_Avg'ed.py`** – Calculates average embeddings per term.
+- **`updateAbstractsWith_Avg'edEmbeds.py`** – Updates abstracts with averaged term embeddings.
+
+#### 🔍 Unsupervised Clustering
+- **`umapUnsupervised.py`** – Applies UMAP dimensionality reduction.
+- **`exploratoryUnsupervisedClustering.py`** – Exploratory k-means clustering.
+- **`selectedClusteringModel_Unsupervised.py`** – Final model configuration.
+- **`outliers_Unsupervised.py`** – Outlier detection.
+- **`clusterDescriptives_Unsupervised.py`** – Cluster-level descriptive analysis.
+- **`compactness_VS_separation_Unsupervised.py`** – Visualizes cluster compactness vs. separation.
+- **`tf-idf_Unsupervised.py`** – Computes TF-IDF scores per cluster.
+- **`jaccard_Unsupervised.py`** – Calculates Jaccard similarities and heatmap.
+- **`heatmap_CommonTerms_Unsupervised.py`** – Heatmap of common terms between clusters.
+
+#### 🧪 Semi-Supervised Clustering
+- **`weightedTerms.py`** – Applies weighting scheme.
+- **`umapSemiSupervised.py`** – UMAP reduction for semi-supervised approach.
+- **`clusterDescriptives_Semisupervised.py`** – Descriptive analysis of clusters.
+- **`jaccard_Semisupervised.py`** – Jaccard similarity and heatmap.
+- **`facetedBarPlots_Semisupervised_10Clusters.py`** – Bar plots of top terms per cluster.
+
+#### 📊 Global Term Statistics
+- **`overall_DescriptiveTermStats.py`** – Descriptive stats for all terms.
+- **`overall_tf-idf_byYear.py`** – TF-IDF by year.
+- **`overall_tf-idf_5YearPlots.py`** – 5-year window TF-IDF visualizations.
+- **`abstractProportion_WithNoTerms.py`** – Proportion of abstracts without terms (dual-axis plot).
+ 
 
 
 ## How to Use This Data
