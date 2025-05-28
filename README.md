@@ -80,11 +80,17 @@ This repository contains the following scripts and data files used in the resear
 - **`abstractProportion_WithNoTerms.py`** – Proportion of abstracts without terms (dual-axis plot).
  
 
+### How to Use This Repository
 
-## How to Use This Data
+The resources and scripts in this repository can be leveraged for various research and analytical purposes:
 
-The data provided in this repository can be utilized for a multitude of purposes:
-- **NLP & TM**: Leverage the data to conduct detailed NLP and TM analyses for Information Retrieval tasks.
-- **Machine Learning Projects**: Use the clustering techniques for ML applications.
-- **Researchers & Science enthusiasts**: Create visualizations to enhance the understanding of how elements of scientific research are communicated via the use of scientific corpora.
+- **Natural Language Processing & Text Mining**  
+  Apply the preprocessing pipeline, term matching, and embedding techniques for information retrieval or content analysis tasks.
 
+- **Machine Learning Applications**  
+  Reuse the clustering workflows (unsupervised and semi-supervised) for methodological experimentation or to analyze similar corpora.
+
+- **Scientific Communication & Meta-Research**  
+  Create visualizations and conduct meta-analyses to explore how psychological research methods are represented and evolve across time in scientific literature.
+
+> **Note:** This repository does not include the original raw abstracts due to licensing restrictions. Users can recreate the dataset using the provided scripts and publicly accessible APIs (where permitted).
