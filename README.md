@@ -1,5 +1,5 @@
 # nlp-ml-analysis-of-psych-methods
-# Methodological Trends in Psychology Research: Analyzing Abstracts with Natural Language Processing and Machine Learning
+## Methodological Trends in Psychology Research: Analyzing Abstracts with Natural Language Processing and Machine Learning
 
 ## Introduction
 
